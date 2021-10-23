@@ -1,0 +1,61 @@
+._header{
+  width:35rem;
+  background:rgba(255,255,255,.2);
+  box-shadow: 0 1rem 2rem rgba(0,0,0,.3);
+  backdrop-filter: blur(.4rem);
+  text-align: center;
+  padding:1rem;
+  border-radius: 1rem;
+}
+
+._header .user{
+  padding-top: 2rem;
+}
+
+._header .user img{
+  margin:1rem 0;
+  height:15rem;
+  width:15rem;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 0 1rem rgba(255,255,255,.2);
+}
+
+._header .user .name{
+  font-size: 3rem;
+  color:#fff;
+  padding:.5rem 0;
+}
+
+._header .user .post{
+  font-size: 1.8rem;
+  color:#eee;
+  font-weight: lighter;
+}
+
+._header .navbar{
+  padding:1rem 3rem;
+}
+
+._header .navbar ul li{
+  margin:1rem 0;
+  list-style: none;
+}
+
+._header .navbar ul li a{
+  display: block;
+  padding:1rem;
+  font-size: 2rem;
+  color:#fff;
+  background:rgba(255,255,255,.2);
+  box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
+  border-radius: 1rem;
+  transition: all .2s linear;
+}
+
+._header .navbar ul li a:hover{
+  background:rgba(255,255,255,.5);
+  color:#555;
+  transition: none;
+}
+

@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-weight: normal;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 13px;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
