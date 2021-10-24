@@ -57,5 +57,7 @@
   background:rgba(255,255,255,.5);
   color:#555;
   transition: none;
+  transform: scale(1.1
+  );
 }
 

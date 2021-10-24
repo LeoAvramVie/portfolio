@@ -61,10 +61,10 @@
   background:rgba(255,255,255,.2);
   color:#fff;
   border-radius: 1rem;
-  box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
+  box-shadow: 0 1rem 2rem rgba(0,0,0,0.5);
   margin-top: 1rem;
   cursor: pointer;
-  transition:.2s linear;
+  transition:.5s linear;
   margin-bottom: 5rem;
 }
 
@@ -79,4 +79,11 @@
   padding:1rem;
   color:#fff;
 
+}
+.pluralsightLogo{
+  margin: 0;
+  width: 25px;
+  height: 25px;
+  justify-content: center;
+  justify-items: center;
 }
