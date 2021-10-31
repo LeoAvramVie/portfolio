@@ -1,11 +1,15 @@
 ._header{
-  width:35rem;
   background:rgba(255,255,255,.2);
   box-shadow: 0 1rem 2rem rgba(0,0,0,.3);
   backdrop-filter: blur(.4rem);
-  text-align: center;
-  padding:1rem;
   border-radius: 1rem;
+  overflow: hidden;
+  min-width: 20vw;
+  height: 60vh;
+  min-height: 30vw;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
 }
 
 ._header .user{
@@ -25,6 +29,9 @@
   font-size: 3rem;
   color:#fff;
   padding:.5rem 0;
+  font-weight: lighter;
+  font-family: Roboto, serif;
+
 }
 
 ._header .user .post{
@@ -59,5 +66,22 @@
   transition: none;
   transform: scale(1.1
   );
+}
+.hamburger{
+  display: none;
+}
+
+@media only screen and (max-width: 500px) {
+  .hamburger {
+  display: flex;
+  }
+  ._header{
+    display: none!important;
+  }
+  image{
+    width: 25px;
+    height: 25px;
+  }
+
 }
 

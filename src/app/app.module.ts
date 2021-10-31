@@ -12,6 +12,10 @@ import { EducationComponent } from './page/education/education.component';
 import { ContactComponent } from './page/contact/contact.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatToolbarModule} from "@angular/material/toolbar";
+import {FlexModule} from "@angular/flex-layout";
+import {MatCardModule} from "@angular/material/card";
+import {MatMenuModule} from "@angular/material/menu";
+import {MatIconModule} from "@angular/material/icon";
 
 @NgModule({
   declarations: [
@@ -24,12 +28,16 @@ import {MatToolbarModule} from "@angular/material/toolbar";
     EducationComponent,
     ContactComponent
   ],
-    imports: [
-        BrowserModule,
-        AppRoutingModule,
-        BrowserAnimationsModule,
-        MatToolbarModule
-    ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatToolbarModule,
+    FlexModule,
+    MatCardModule,
+    MatMenuModule,
+    MatIconModule
+  ],
   providers: [],
   bootstrap: [AppComponent]
 })

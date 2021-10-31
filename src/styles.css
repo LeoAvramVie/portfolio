@@ -2,17 +2,14 @@
   margin: 0;
   padding: 0;
   text-decoration: none;
-  font-weight: normal;
-  box-sizing: border-box;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 13px;
+  font-family: Roboto, serif;
+  font-weight: 150;
 }
 
-html, body {
-  height: 100%;
-}
+@media only screen and (max-width: 1000px) {
+  * {
+    font-size: 8px;
+  }
 
-body {
-  margin: 0;
-  font-family: Roboto, "Helvetica Neue", sans-serif;
 }
